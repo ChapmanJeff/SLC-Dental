@@ -1,0 +1,168 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin:0;
+}
+
+body {
+	background: #005AA3;
+}
+
+a {
+	text-decoration: none;
+	color: #2076B5;
+}
+.info {
+	background: #004E8E;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	/*height: 4%;*/
+	width: 100%;
+	/*text-align: center;*/
+	font-size: 10px;
+	/*line-height: 250%;*/
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	border-bottom: 1px solid #378CCD;
+	align-items: center;
+}
+
+.line {
+	color: #378CCD;
+	font-size: 20px;
+}
+
+.address {
+	height: 100%;
+}
+
+.main {
+	width:90%;
+	background: white;
+	margin: 0 auto;
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+ul {
+	display: flex;
+	flex-position: row;
+	list-style-type: none;
+	margin:0;
+}
+
+li {
+	margin:8px;
+}
+.menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-position: row;
+	justify-content: baseline;
+	align-items: center;
+	padding: 10px;
+	margin: 20px;
+}
+
+.menu_items {
+	margin: 0 20px;
+	float: left;
+}
+
+.big_pic img {
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contain_three {
+	padding: 10px;
+	display: flex;
+	/*flex-position: row;*/
+	align-items: baseline;
+}
+
+.box {
+	width: 250px;
+	margin: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.box img {
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.box a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.container {
+	padding: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.container img {
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.container iframe {
+	width: 100%;
+	height: 400px;
+	margin: 20px 0;
+}
+
+.footer {
+	width: 90%;
+	height: 10%;
+	display: flex;
+	flex-position:row;
+	justify-content:space-around;
+	font-size: 10px;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:10px;
+	margin-left: 30px;
+}
+
+.footer li {
+	margin: 0 3px;
+}
+
+.footer ul {
+	padding:0;
+}
+
+.footer a {
+	color: white;
+}
+
+@media screen and (max-width: 760px) {
+	.menu_items {
+		display:none;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.contain_three {
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	/*align-items: baseline;*/
+}
